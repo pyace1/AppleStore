@@ -92,3 +92,15 @@ header button{
 header button:hover{
 	 background: var(--yellow);
 	 }
+/******** A B O U T********/
+.about{
+	color: var(--white);
+}
+.about article{
+	width: 50%;
+	float: left;
+	padding: 60px; 
+}
+.about i{
+	color: var(--yellow);
+}
