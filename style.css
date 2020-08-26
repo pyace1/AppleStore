@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Poppins:400,700&display=swap');
+:root {
+    --gray1: #515365;
+    --gray2: #4e5062;
+    --gray3: #4b4d5e;
+    --gray4: #484a5a;
+    --purple: rgb(110, 37, 148);
+    --yellow: #ecd444;
+    --white: #fff;
+    --text: #444;
+    --transition: .4s ease;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    color: var(--text);
+    font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Poppins', sans-serif;
+}
+a{
+	transition: .4s ease;
+}
+button{
+	border: none;
+	padding: 15px 30px;
+	margin-top: 20px;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+button:hover{
+	cursor: pointer;
+	transition:.3s ease;
+}
+/******** N A V I G A T I O N ********/
+nav{
+	text-align: center;
+	background: linear-gradient(to right, var(--purple), var(--yellow)); 
+	height: 55px; /*TRIK KAKO DA NASLOV BUDE U SREDINI NAV-A.... HEIGHT I LINE-HEIGHT DA BUDU ISTI */
+	line-height: 55px;
+	} 
+nav ul li{
+	 display: inline-block;
+	 }
+nav ul li a{
+	 text-decoration: none;
+	 margin: 30px;
+	 color: var(--white);
+	 }
+nav ul li a:hover{
+	 color: var(--purple);
+	 }
+nav i{
+	 font-size: 2rem;
+	 position: relative;
+	 top: 5px;
+	 }
+/******** H E A D E R ********/
+header{
+	 background-image: linear-gradient(rgba(110,37,148,.9), rgba(110,37,148,.9)), url(img/header.jpg);
+	 background-position: center;
+	 background-size: cover;
+	 color: var(--white);
+	 text-align: center;
+	 padding: 200px;
+	 }
+header h1{
+	 font-size: 4rem;
+	 letter-spacing: 2px;
+	 }
+header h1::after{   /*Linija ispod naslova*/
+	 display:block;
+	 content: "";
+	 height: 4px;
+	 width: 80px;
+	 background: var(--yellow);
+	 margin: 30px auto 40px auto;
+	 }
+header h4{
+	 font-size: 1.4rem;
+	 }
+header button{
+	 background: var(--white);
+	 color: var(--purple);
+	 }
+header button:hover{
+	 background: var(--yellow);
+	 }
