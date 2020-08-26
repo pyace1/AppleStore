@@ -1,0 +1,11 @@
+1.Postavljanje sajta na server-pred kraj casa
+http://apple.webcon.skyhosting.rs/
+2. postavljanje naslova u centar navigacije po horizontalnoj liniji
+	height: 55px;
+	line-height: 55px;
+ izjednacavanjem hight iline-height - naslov ostaje u centru
+3 position relative, top 5px
+pomerili smo logo-jabucicu 5px na dole u navigaciji
+4. Postavljanje linije ispod naslova( podvuceni naslovi)
+	ovaj put nisu grupisana podvlacenja(slicno kao clear-fix je postavka)
+
