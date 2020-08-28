@@ -118,3 +118,134 @@ header button:hover{
 	 background: var(--yellow);
 	 color: var(--text);
 }
+/******** P R O D U C T S ********/
+.products .clearfix {
+	border-bottom: 1px solid lightgray;
+	clear: both;
+}
+.products h3 {
+	font-size: 2rem;
+	letter-spacing: 3px;
+}
+.products h3::after {
+	display: block;
+	content: "";
+	height: 4px;
+	width: 80px;
+	background: var(--text);
+	margin: 20px 0;
+}
+.products .row1 article:nth-child(1) {
+	background-image: url(img/mac.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 40%;
+	float: left;
+	height: 50vh;
+}
+.products .row1 article:nth-child(2) {
+	width: 60%;
+	float: right;
+	height: 50vh;
+	padding: 7%;
+}
+.products .row2 article:nth-child(1) {
+	width: 60%;
+	float: left;
+	height: 50vh;
+	padding: 7%;
+}
+.products .row2 article:nth-child(2) {
+	background-image: url(img/ipad.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 40%;
+	float: right;
+	height: 50vh;
+}
+.products .row3 article:nth-child(1) {
+	background-image: url(img/iphone.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 40%;
+	float: left;
+	height: 50vh;
+}
+.products .row3 article:nth-child(2) {
+	width: 60%;
+	float: right;
+	height: 50vh;
+	padding: 7%;
+}
+/******** C T A ********/
+.cta {
+	padding: 80px;
+	background: var(--yellow);
+	text-align: center;
+}
+.cta h2{
+	font-size: 3rem;
+}
+.cta h2::after{
+	display: block;
+	content: "";
+	height: 4px;
+	width: 80px;
+	background: var(--text);
+	margin: 30px auto 40px auto;
+}
+.cta button{
+	 background: var(--purple);
+	 color: var(--white);
+}
+.cta button:hover{
+	 background: var(--text);
+	 color: var(--white);
+}
+/******** F O O T E R ********/
+footer{
+	background: var(--text);
+	padding: 60px;
+	color: var(--white);
+}
+footer h3{
+	font-size: 1.5rem;
+}
+footer h3::after {
+	display: block;
+	content: "";
+	height: 4px;
+	width: 80px;
+	background: var(--yellow);
+	margin: 20px 0;
+}
+footer article:first-child{
+	width: 60%;
+	float: left;
+}
+footer article:last-child{
+	width: 40%;
+	float: right;
+}
+footer button{
+	 background: transparent;
+	 color: var(--yellow);
+	 border: 2px solid var(--yellow);
+}
+footer button:hover{
+	 background: var(--yellow);
+	 color: var(--text);
+}
+footer ul{
+	list-style: none;
+	line-height: 2;
+}
+footer a{
+	text-decoration: none;
+	color: var(--white);
+}
+footer::after {
+	display: block;
+	content: "";
+	clear: both;
+}
