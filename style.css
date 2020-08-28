@@ -84,7 +84,7 @@ header h1::after{   /*Linija ispod naslova*/
 	 }
 header h4{
 	 font-size: 1.4rem;
-	 }
+	}
 header button{
 	 background: var(--white);
 	 color: var(--purple);
@@ -103,4 +103,18 @@ header button:hover{
 }
 .about i{
 	color: var(--yellow);
+	font-size: 3rem;
+	padding-bottom: 20px;
+}
+.about h2, .about p{
+	margin-bottom: 20px;
+}
+.about button{
+	 background: transparent;
+	 color: var(--yellow);
+	 border: 2px solid var(--yellow);
+}
+.about button:hover{
+	 background: var(--yellow);
+	 color: var(--text);
 }
