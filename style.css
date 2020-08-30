@@ -249,3 +249,57 @@ footer::after {
 	content: "";
 	clear: both;
 }
+/******** R E S P O N S I V E ********/
+@media (min-width: 768px) and (max-width: 1024px){
+	.products .row1 article:nth-child(2) {
+		padding: 20%;
+	}
+	.products .row2 article:nth-child(1) {
+		padding: 20%;
+	}
+	.products .row3 article:nth-child(2) {
+		padding: 20%;
+	}
+}
+@media (max-width: 768px){
+
+	nav ul li a {
+		margin: 5px;
+	}
+	header h1 {
+		font-size: 2rem;
+	}
+	header {
+		padding: 50px;
+	}
+	header h4 {
+		font-size: 1rem;
+	}
+	.about article {
+		width: 100%;
+		padding: 40px;
+	}
+	.products .row1 article:nth-child(1),
+	.products .row2 article:nth-child(2),
+	.products .row3 article:nth-child(1) {
+		display: none;
+	}
+	.products .row1 article:nth-child(2),
+	.products .row2 article:nth-child(1),
+	.products .row3 article:nth-child(2) {
+		width: 100%;
+    }
+	.cta {
+    padding: 40px;
+	}
+	footer {
+		padding: 40px;
+	}
+	footer article:first-child {
+    width: 100%;
+	margin-bottom: 40px;
+    }
+	footer article:second-child {
+    width: 100%;
+	}
+}

@@ -11,6 +11,9 @@ pomerili smo logo-jabucicu 5px na dole u navigaciji
 5. u section ABOUT dugmici su providni u html-u
 6 ubacio liniju u sam clear fix da odvoji section
 7 clearfix problemi u footeru
+8 kacenje Sajta na domen Syhostinga,zadnjih 5 minuta
+ Korisnicko ime: webconsk
+ Lozinka: 5A8cOTm3O1#di
 
 
 
